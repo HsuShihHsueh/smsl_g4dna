@@ -482,7 +482,7 @@ seg_select = {
 
 The haENM potential energy function:
 
-$$U_{\text{haENM}} = \frac{1}{2} \sum_{i<j} k_{ij} (l_{ij} - l_{ij}^0)^2$$
+$U_{\text{haENM}} = \frac{1}{2} \sum_{i<j} k_{ij} (l_{ij} - l_{ij}^0)^2$
 
 where:
 - $k_{ij}$: Spring constant (kcal/mol/Ų) to be optimized
@@ -622,11 +622,11 @@ DataFrame columns:
    - Edges: Springs with weights kij
    
 2. **Build Laplacian Matrix**:
-   $$L = D - A$$
+   $L = D - A$,
    where D is degree matrix, A is weighted adjacency matrix
 
 3. **Eigendecomposition**:
-   $$L \mathbf{v}_\alpha = \lambda_\alpha \mathbf{v}_\alpha$$
+   $L v_\alpha = \lambda_\alpha v_\alpha$
    
 4. **Identify Mechanical Modes**:
    - λα: Eigenvalue (stiffness of mode α)
@@ -1099,7 +1099,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or issues:
 - **Email**: shhsu.bt11@gmail.com
-- **Issues**: [GitHub Issues](https://github.com/HsuShihHsueh/smsl_demo/issues)
+- **Issues**: [GitHub Issues](https://github.com/HsuShihHsueh/smsl_g4dna/issues)
 
 ---
 
