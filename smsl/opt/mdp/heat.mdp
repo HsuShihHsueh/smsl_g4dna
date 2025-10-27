@@ -1,0 +1,69 @@
+; heating by NVT equilibration with position restraint and annealing
+define                = -DPOSRES     ; position restrain the protein
+include               = 
+
+; Run parameters
+integrator            = sd             ; stochastic dynamics
+init-step             = 0              ; Starting step
+nsteps                = 500000         ; 2 * 500000 = 1 ns
+dt                    = 0.002          ; 2 fs
+
+; Output control
+nstenergy             = 5000           ; save energies every 10.0 ps
+nstlog                = 5000           ; update log file every 10.0 ps
+nstxout-compressed    = 5000           ; save compressed coordinates every 10.0 ps
+compressed-x-grps     = System         ; groups to save to xtc trajectory
+compressed-x-precision= 100000
+energygrps            = System
+
+; Bond parameters
+continuation          = no             ; first dynamics run
+constraint_algorithm  = lincs          ; holonomic constraints 
+constraints           = h-bonds        ; all bonds (even heavy atom-H bonds) constrained
+lincs_iter            = 1              ; accuracy of LINCS
+lincs_order           = 4              ; also related to accuracy
+
+; Neighborsearching
+ns_type               = grid           ; search neighboring grid cells
+nstlist               = 10             ; 10 fs
+rlist                 = 1.2            ; short-range neighborlist cutoff (in nm)
+pbc                   = xyz            ; 3-D PBC
+
+; Electrostatics
+coulombtype           = PME            ; Particle Mesh Ewald for long-range electrostatics
+pme_order             = 4              ; cubic interpolation
+fourierspacing        = 0.16           ; grid spacing for FFT
+rcoulomb              = 1.2            ; Short-range electrostatic cut-off
+
+; Van der waals
+cutoff-scheme         = Verlet
+vdwtype               = cutoff         ; For using CHARMM36 in GROMACS 5.0
+vdw-modifier          = force-switch
+rvdw                  = 1.2            ; Short-range Van der Waals cut-off
+rvdw-switch           = 1.0
+DispCorr              = EnerPres       ; account for cut-off vdW scheme
+
+; Temperature coupling is on
+tcoupl                = no                       ; use langevin thermostat
+tc-grps               = non-Water Water          ; two coupling groups - more accurate
+tau_t                 = 2    2                   ; time constant, in ps
+ref_t                 = 300  300                 ; reference temperature, one for each group, in K
+
+; Pressure coupling is off
+pcoupl                = no                   ; no pressure coupling in NVT
+
+; Simulated annealing
+; heating the system to specific temperature for production run
+annealing             = single single
+annealing-npoints     = 4  4                           ; number of time points
+annealing-time        = 0 200 400 500 0 200 400 500    ; list of time points(ps) for updating temperature
+annealing-temp        = 0 100 200 300 0 100 200 300    ; list of temperature(K) for each time points
+
+; Velocity generation
+gen_vel               = yes              ; assign velocities from Maxwell distribution
+gen_temp              =  1               ; temperature for Maxwell distribution
+gen_seed              = -1               ; generate a random seed
+
+; Langevin dynamics
+ld_seed               = -1               ; generate a random seed for Langevin dynamics
+

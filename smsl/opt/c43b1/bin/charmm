@@ -1,0 +1,4 @@
+lib_path=$(realpath "$(dirname "$0")/../lib")
+echo $lib_path
+export LD_LIBRARY_PATH=${lib_path}:$LD_LIBRARY_PATH
+${lib_path}/charmm

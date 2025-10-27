@@ -1,0 +1,2 @@
+rsync -avz --exclude='Icon*' ./b.amber.drug_ff jwchu@140.113.120.76:/home/work/projects/gqp/drugs/ewv
+

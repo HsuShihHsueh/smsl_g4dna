@@ -1,0 +1,4 @@
+loadAmberParams tmpyp4.all.modify.frcmod
+x=loadmol2 tmpyp4.mol2
+saveAmberParm x tmpyp4.prmtop tmpyp4.rst7
+quit

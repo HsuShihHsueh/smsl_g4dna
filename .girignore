@@ -1,0 +1,4 @@
+# Ignore MD trajectory files
+*.xtc
+*.dcd
+

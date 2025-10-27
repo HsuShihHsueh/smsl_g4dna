@@ -1,0 +1,62 @@
+;
+;	File 'topol.top' was generated
+;	By user: user (1000)
+;	On host: Allen-Ubuntu
+;	At date: Tue Dec 17 12:25:34 2024
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2023.2 (-:
+;	
+;	Executable:   /home/user/opt/gromacs-2023/bin/gmx
+;	Data prefix:  /home/user/opt/gromacs-2023
+;	Working dir:  /home/user/workfolder/g4dna_protocol/hybrid-ii_poh/c.gromacs.run_md/1.create_system
+;	Command line:
+;	  gmx pdb2gmx -f 2jpz.pgro.pdb -o 2jpz.gro.pdb -chainsep ter -water tip3p
+;	Force field data was read from:
+;	/home/user/workfolder/g4dna_protocol/smsl/opt/force_field
+;
+;	Note:
+;	This might be a non-standard force field location. When you use this topology, the
+;	force field must either be present in the current directory, or the location
+;	specified in the GMXLIB path variable or with the 'include' mdp file option.
+;
+
+; Include forcefield parameters
+#include "/home/user/workfolder/g4dna_protocol/smsl/opt/force_field/amber14sb_OL21.ff/forcefield.itp"
+
+; Include ligand parameters
+#include "POH_GMX.top"
+
+; Include ligand topology
+#ifdef POSRES
+#include "posre_POH.itp"
+#endif
+
+; Include chain topologies
+#include "topol_DNA.itp"
+#include "topol_Ion2.itp"
+
+; Include water topology
+#include "/home/user/workfolder/g4dna_protocol/smsl/opt/force_field/amber14sb_OL21.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "/home/user/workfolder/g4dna_protocol/smsl/opt/force_field/amber14sb_OL21.ff/ions.itp"
+
+[ system ]
+; Name
+Protein
+
+[ molecules ]
+; Compound        #mols
+DNA                 1
+Ion2                1
+POH                 1

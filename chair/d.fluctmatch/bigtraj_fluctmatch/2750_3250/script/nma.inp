@@ -1,0 +1,90 @@
+* Author: Shih-Hsueh Hsu
+* 
+
+bomlev -2
+
+set rootfolder $HOME/user/allen/workfolder/fluctmatch/chair/bigtraj_fluctmatch
+set scratchfolder /scratch/chu_02/allen/fluctmatch/chair
+set timelabel 2750_3250 
+set nadir   @rootfolder/@timelabel
+set scnadir @scratchfolder/@timelabel
+set mddir   @nadir/md_data
+set enmdir  @nadir/enm_data
+set crdfile @enmdir/na_enm.crd
+set rtffile @enmdir/na_enm_5.00.rtf
+set icstr   @enmdir/na_enm_5.00.str
+set prmfile @scnadir/na_enm_5.00.prm
+set vibcrd  @scnadir/na_enm.vib_5.00.crd 
+set vibic   @scnadir/na_enm_5.00.vib 
+set avgic   @scnadir/avg_5.00.ic 
+set fluctic @scnadir/fluct_5.00.ic 
+
+
+set fileu  10 
+set temp   300.0
+
+open unit 11 read form name @rtffile
+read rtf card unit 11 
+close unit 11 
+
+open read unit @fileu form name @prmfile 
+read para unit @fileu card 
+close unit @fileu 
+
+read sequ card 
+* 
+ 1
+NA
+generate DNA setup
+
+open read unit @fileu card name @crdfile 
+read coor unit @fileu ignore 
+coor copy comp 
+close unit @fileu 
+
+scalar mass set 1 sele all end
+
+skip all excl bond 
+update inbfrq 0 1hbfrq 0 imgfrq 0 
+ener 
+mini sd nstep 100 
+mini abnr nstep 45000 
+
+coor orie rms mass 
+scalar wmain copy mass 
+
+ioformat extended 
+open write unit @fileu card name @vibcrd 
+write coor unit @fileu card 
+
+stream @icstr 
+
+ic fill 
+open write unit @fileu card name @avgic 
+write ic   unit @fileu card resid 
+* Internal coordinate averages 
+* 
+
+close unit @fileu 
+
+calc nmode   ?natom * 3 
+
+set nmodes   @nmode 
+set type     temp 
+set fluctu   20 
+set vibu     22 
+
+open write unit @fluctu card name @fluctic 
+open write unit @vibu   card name @vibic 
+
+vibran nmode @nmodes 
+    diag fini 
+    fluc ic @type @temp tfre 0.0 mode 7 thru @nmodes 
+    ic save 
+    ic write unit @fluctu resid 
+    * Internal coordinate fluctuation 
+    * 
+    write normal card mode 1 thru @nmodes unit @vibu 
+end 
+
+stop

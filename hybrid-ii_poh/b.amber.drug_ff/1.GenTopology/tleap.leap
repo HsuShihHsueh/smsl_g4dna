@@ -1,0 +1,6 @@
+POH=loadmol2 POH.mol2
+loadamberparams POH.all.modify.frcmod
+check ## just for check
+saveamberparm POH POH.prmtop POH.rst7
+quit
+

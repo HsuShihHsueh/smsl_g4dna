@@ -1,0 +1,6 @@
+EWV=loadmol2 EWV.mol2
+loadamberparams EWV.all.modify.frcmod
+check ## just for check
+saveamberparm EWV EWV.prmtop EWV.rst7
+quit
+

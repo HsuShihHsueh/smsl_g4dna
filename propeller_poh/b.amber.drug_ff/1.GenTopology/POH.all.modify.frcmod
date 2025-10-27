@@ -1,0 +1,121 @@
+Remark line goes here
+MASS
+CA 12.010        0.360               same as ca 
+C* 12.010        0.360               same as cc 
+CT 12.010        0.878               same as c3 
+CC 12.010        0.360               same as cc 
+N* 14.010        0.530               same as nc 
+NA 14.010        0.530               same as na 
+NB 14.010        0.530               same as nc 
+CD 12.010        0.360               same as cc 
+H4 1.008         0.135               same as h4 
+HA 1.008         0.135               same as ha 
+H1 1.008         0.135               same as h1 
+H  1.008         0.161               same as hn 
+
+BOND
+CA-CA  461.10   1.398       same as ca-ca, penalty score=  0.0
+CA-N*  467.70   1.352       same as ca-nc, penalty score=  0.0
+CA-H4  341.50   1.089       same as ca-h4, penalty score=  0.0
+C*-C*  419.80   1.428       same as cc-cc, penalty score=  0.0
+C*-CC  419.80   1.428       same as cc-cc, penalty score=  0.0
+C*-HA  349.10   1.084       same as cc-ha, penalty score=  0.0
+CA-CD  385.10   1.456       same as ca-cc, penalty score=  0.0
+CA-HA  345.80   1.086       same as ca-ha, penalty score=  0.0
+CT-N*  334.70   1.456       same as c3-nc, penalty score=  0.0
+CT-H1  330.60   1.097       same as c3-h1, penalty score=  0.0
+CC-NA  425.80   1.380       same as cc-na, penalty score=  0.0
+CC-CD  419.80   1.428       same as cc-cc, penalty score=  0.0
+H -NA  408.40   1.010       same as hn-na, penalty score=  0.0
+CC-NB  441.10   1.369       same as cc-nc, penalty score=  0.0
+
+ANGLE
+CA-CA-CA   66.600     120.020   same as ca-ca-ca, penalty score=  0.0
+CA-CA-HA   48.200     119.880   same as ca-ca-ha, penalty score=  0.0
+CA-N*-CA   69.900     119.324   same as ca-nc-ca, penalty score=  0.0; modify theta0 by MP2
+CA-N*-CT   67.900     109.510   same as c3-nd-cc, penalty score=  2.0
+C*-C*-CC   63.000     108.890   ; C*-CA-CA in calix    
+C*-C*-HA   35.000     123.450   ; CA-CA-HJ in calix
+C*-CC-NA   70.000     105.070   ; CA-C*-NA in calix
+C*-CC-CD   62.170     124.958   same as cc-cc-cc, penalty score=  0.0; modify theta0 by MP2
+CA-CD-CC   67.200     111.040   same as ca-cc-cc, penalty score=  0.0
+CA-CA-CD   65.000     120.790   same as ca-ca-cc, penalty score=  0.0
+CA-CA-N*   69.500     119.720   same as ca-ca-nc, penalty score=  0.0
+CA-CA-H4   48.100     120.340   same as ca-ca-h4, penalty score=  0.0
+CC-C*-HA   35.000     127.650   ; C*-CA-HJ in calix
+CC-NA-CC   70.000     112.280   ; C*-NA-C* in calix
+CC-NA-H    30.000     122.430   ; C*-NA-H  in calix
+CC-CD-CC   62.170     126.263   same as cc-cc-cc, penalty score=  0.0; modify theta0 by MP2
+H4-CA-N*   51.000     118.360   same as h4-ca-nc, penalty score=  0.0
+H1-CT-N*   50.100     108.570   same as h1-c3-nc, penalty score=  0.0
+CD-CC-NA   67.800     125.610   same as cc-cc-na, penalty score=  0.0; modify theta0 by MP2
+CD-CC-NB   67.340     125.122   same as cc-cc-nc, penalty score=  0.0; modify theta0 by MP2
+C*-CC-NB   67.340     111.910   same as cc-cc-nc, penalty score=  0.0; modify theta0 by MP2
+CC-NB-CC   73.100     104.347   same as cc-nc-cc, penalty score=  0.0; modify theta0 by MP2
+H1-CT-H1   39.200     108.460   same as h1-c3-h1, penalty score=  0.0
+
+DIHE
+C*-C*-CC-NA   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+C*-C*-CC-CD   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+C*-CC-NA-CC   4    6.800       180.000           2.000      same as X -cd-na-X , penalty score=  0.0
+C*-CC-NA-H    4    6.800       180.000           2.000      same as X -cd-na-X , penalty score=  0.0
+C*-CC-CD-CA   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+C*-CC-CD-CC   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+CA-CA-CA-N*   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CA-CA-CA-H4   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+NB-CC-CD-CA   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+CA-CA-CA-CA   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CA-CA-CA-HA   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CA-CA-CD-CC   4    0.000         0.000           2.000      ;need fit by mdgx
+CA-CA-CD-CC   4    0.000         0.000           4.000      ;need fit by mdgx
+CA-CA-N*-CA   2    9.600       180.000           2.000      same as X -ca-nd-X , penalty score=  0.0
+CA-CA-N*-CT   2    9.600       180.000           2.000      same as X -ca-nd-X , penalty score=  0.0
+NB-CC-CD-CC   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+CC-C*-C*-CC   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+CC-C*-C*-HA   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+HA-CA-CA-N*   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+NA-CC-CD-CA   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+NA-CC-CD-CC   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+C*-C*-CC-NB   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+HA-C*-CC-NB   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+HA-C*-CC-NA   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+CA-CA-CA-CD   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CD-CA-CA-HA   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CD-CC-NA-CC   4    6.800       180.000           2.000      same as X -cd-na-X , penalty score=  0.0
+CD-CC-NA-H    4    6.800       180.000           2.000      same as X -cd-na-X , penalty score=  0.0
+HA-C*-CC-CD   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+C*-CC-NB-CC   2    9.500       180.000           2.000      same as X -cd-nd-X , penalty score=  0.0
+CD-CC-NB-CC   2    9.500       180.000           2.000      same as X -cd-nd-X , penalty score=  0.0
+H4-CA-CA-HA   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+H4-CA-N*-CA   2    9.600       180.000           2.000      same as X -ca-nd-X , penalty score=  0.0
+H4-CA-N*-CT   2    9.600       180.000           2.000      same as X -ca-nd-X , penalty score=  0.0
+HA-C*-C*-HA   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+H1-CT-N*-CA   6    0.000         0.000           3.000      same as X -c3-n2-X , penalty score=218.5
+
+IMPROPER
+CA-H4-CA-N*         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 44.3 (use general term))
+C*-CC-C*-HA         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 38.9 (use general term))
+CA-CA-CA-CD         1.1          180.0         2.0          Same as c2-ca-ca-ca, penalty score= 54.0)
+CA-CA-CA-HA         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score=  6.0 (use general term))
+C*-CD-CC-NA         1.1          180.0         2.0          Using the default value
+CA-CA-N*-CT         1.1          180.0         2.0          Using the default value
+CC-CC-NA-H          1.1          180.0         2.0          Same as X -X -na-hn, penalty score=  6.0 (use general term))
+CA-CC-CD-CC         1.1          180.0         2.0          Same as CA-CA-CA-CD, penalty score=297.9)
+C*-CD-CC-NB         1.1          180.0         2.0          Using the default value
+
+NONBON
+  CA          1.9080  0.0860             same as ca 
+  C*          1.9080  0.0860             same as cc 
+  CT          1.9080  0.1094             same as c3 
+  CC          1.9080  0.0860             same as cc 
+  N*          1.8240  0.1700             same as nc 
+  NA          1.8240  0.1700             same as na 
+  NB          1.8240  0.1700             same as nc 
+  CD          1.9080  0.0860             same as cc 
+  H4          1.4090  0.0150             same as h4 
+  HA          1.4590  0.0150             same as ha 
+  H1          1.3870  0.0157             same as h1 
+  H           0.6000  0.0157             same as hn 
+
+
+

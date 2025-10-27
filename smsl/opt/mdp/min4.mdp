@@ -1,0 +1,36 @@
+; min2.mdp - used as input into grompp to generate min2.tpr
+
+define          = -DPOSRES
+
+; Parameters describing what to do, when to stop and what to save
+integrator      = steep         ; Algorithm (steep = steepest descent minimization)
+emtol           = 100.0         ; Stop minimization when the maximum force < 1000.0 kJ/mol/nm
+emstep          = 0.01          ; Minimization step size
+nsteps          = 50000         ; Maximum number of (minimization) steps to perform
+
+; Bond parameters
+continuation          = no             ; first dynamics run
+constraint_algorithm  = lincs          ; holonomic constraints
+constraints           = h-bonds        ; all bonds (even heavy atom-H bonds) constrained
+lincs_iter            = 1              ; accuracy of LINCS
+lincs_order           = 4              ; also related to accuracy
+
+; Neighborsearching
+nstlist               = 1              ; 1 fs
+rlist                 = 1.2            ; short-range neighborlist cutoff (in nm)
+pbc                   = xyz            ; 3-D PBC
+
+; Electrostatics
+coulombtype           = Cut-off        ; Particle Mesh Ewald for long-range electrostatics
+pme_order             = 4              ; cubic interpolation
+fourierspacing        = 0.16           ; grid spacing for FFT
+rcoulomb              = 1.2            ; Short-range electrostatic cut-off
+
+; Van der waals
+cutoff-scheme         = Verlet
+vdwtype               = cutoff         ; For using CHARMM36 in GROMACS 5.0
+vdw-modifier          = force-switch
+rvdw                  = 1.2            ; Short-range Van der Waals cut-off
+rvdw-switch           = 1.0
+DispCorr              = no
+

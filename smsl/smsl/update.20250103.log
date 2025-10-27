@@ -1,0 +1,19 @@
+backboneAngle.py   (    )
+category.py        (    )
+config.py          (    )
+enmBuilder.py      (    )
+fluctMatch.py      (    )
+graphBigtraj.py    (edit) 修正import 內部package的路徑
+graph.py           (edit) 配合5.11_graph_bm.ipynb增加prominent_mode上df_info_by_resid列表
+makeDataframe.py   (    )
+mda.py             (    )
+multiWindows.py    (    )
+opt.py             (    )
+pairtype.py        (    )
+plotAgent.py       (    )
+trajTransfer.py    (edit) 不指定*.pdb和*.xtc路徑，若要指定路徑請在load_MDUniverse的pdbFile或xtcFile指定
+
+其他：
+propeller/c.gromacs.run_md/2.simulation/2.4_check_ion_position.ipynb 修正K1/K2名稱定義問題，以`K1(上層)`或`K1(下層)`標示
+propeller/d.fluctmatch/4-5*.ipynb 修正 import 路徑
+propeller/d.fluctmatch/5.11_graph_bm.ipynb 增加prominent_mode上df_info_by_resid列表，並以`K1(上層)`或`K1(下層)`標示鉀離子名稱

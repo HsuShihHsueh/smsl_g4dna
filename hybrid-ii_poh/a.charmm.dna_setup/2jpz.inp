@@ -1,0 +1,110 @@
+* Author: Shih-Hsueh Hsu (Allen)
+* Title: Generate the G-quadruplex (PDBID:2jpz) sturcture 
+*        and export to .pdb file
+*
+
+set curdir = .
+set topdir = /home/user/workfolder/g4dna_protocol/smsl/opt/c43b1/toppar
+set pdbdir = .
+
+
+set dna = 2jpz
+set dna_part = dna
+set ion_part = ion
+
+open unit 11 read form name @topdir/top_all36_na.rtf
+read rtf card unit 11
+close unit 11
+
+open read unit 11 card name @topdir/par_all36_na.prm
+read param unit 11 flex
+close unit 11
+
+open read unit 11 card name @topdir/toppar_water_ions.str
+stream card unit 11
+close unit 11
+
+read sequ card
+*  
+   22
+!AGGGTTAGGGTTAGGGTTAGGG
+ADE GUA GUA GUA THY THY ADE GUA GUA GUA 
+THY THY ADE GUA GUA GUA THY THY ADE GUA 
+GUA GUA  
+generate dna setup first 5ter last 3ter
+
+! (default)RNA -> DNA 
+patch deo5 dna  1 setup warn
+patch deox dna  2 setup warn
+patch deox dna  3 setup warn
+patch deox dna  4 setup warn
+patch deox dna  5 setup warn
+patch deox dna  6 setup warn
+patch deox dna  7 setup warn
+patch deox dna  8 setup warn
+patch deox dna  9 setup warn
+patch deox dna 10 setup warn
+patch deox dna 11 setup warn
+patch deox dna 12 setup warn
+patch deox dna 13 setup warn
+patch deox dna 14 setup warn
+patch deox dna 15 setup warn
+patch deox dna 16 setup warn
+patch deox dna 17 setup warn
+patch deox dna 18 setup warn
+patch deox dna 19 setup warn
+patch deox dna 20 setup warn
+patch deox dna 21 setup warn
+patch deox dna 22 setup warn 
+
+open read unit 12 card name @curdir/@{dna}_@{dna_part}.0.pdb
+read coor pdb unit 12
+close unit 12
+
+read sequ card
+*  
+   2
+POT POT
+generate ion setup
+
+open read unit 12 card name @curdir/@{dna}_@{ion_part}.0.pdb
+read coor pdb unit 12
+close unit 12
+
+print coor
+
+define fix select initialized .and. .not. hydrogen show end
+
+define nonH select .not. hydrogen end
+set nonHatoms = ?nsel
+define missing select .not. hydrogen .and. .not. initialized show end
+set missingatoms = ?nsel
+
+Calc fraction = (@nonHatoms - @missingatoms) / @nonHatoms
+
+
+! Use of AUTOGENERATE is essential
+autogenerate angles dihedrals 
+
+! Internal Coordinate Manipulation
+ic fill preserve  !fill: autocomplete hydrogen
+ic param
+ic build
+
+scaler wmain set 0.0 sele all end
+scaler wmain set 1.0 sele fix end
+
+cons fix sele fix end
+
+mini sd   nstep 100
+mini abnr nstep 1000
+mini abnr nstep 5000
+
+open write unit 12 card name @curdir/@{dna}.aa.pdb
+write coor pdb unit 12
+close unit 12
+
+stop
+
+
+

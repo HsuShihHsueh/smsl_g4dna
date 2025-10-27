@@ -1,0 +1,25 @@
+backboneAngle.py   (    )
+category.py        (    )
+config.py          (    )
+enmBuilder.py      (    )
+fluctMatch.py      (    )
+graphBigtraj.py    (    ) 
+graph.py           (    ) 
+makeDataframe.py   (    )
+mda.py             (    )
+multiWindows.py    (    )
+opt.py             (    )
+pairtype.py        (    )
+plotAgent.py       (edit) 修正PlotAgent.set_legend 在matplotlib3.6以下版本的報錯，修改後3.6和3.7版本皆能運行
+trajTransfer.py    (    ) 
+
+其他：
+summary/d.fluctmatch/fig5.13,14.rmsd_rmsf.ipynb       (edit) 改寫生成RMSF_in_1.svg中p_agent.set_legend的寫法(即使用PlotAgent.set_legend)
+summary/d.fluctmatch/tab5.5-5.11 共9個ipynb檔          (edit) 增加cell以儲存./summary/d.fluctmatch/data/subgroup_std.csv
+summary/d.fluctmatch/fig5.29,30,35,40.ks_vsplot.ipynb (edit) 在vsplot中增加error bar
+summary/d.fluctmatch/fig5.34,41.drug_kst.ipynb        (edit) 在vsplot中增加error bar
+summary/d.fluctmatch/tab5.11.hotspot_dsdna.ipynb      (edit) 在vsplot中增加error bar
+
+
+
+

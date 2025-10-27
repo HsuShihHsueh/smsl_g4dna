@@ -1,0 +1,216 @@
+<++>-----------------------------------------------------------------------<++>
+<++> mdgx: A molecular dynamics engine in the AMBER suite of programs      <++>
+<++>                                                                       <++>
+<++> Written by David S. Cerutti, Case Group (2009 - 2020)                 <++>
+<++>-----------------------------------------------------------------------<++>
+
+Run on Mon Mar 31 15:18:11 2025
+<++>-----------------------------------------------------------------------<++>
+
+INPUT LINE TEXT:
+
+mdgx -i 2.3.ExtractEnergies.mdgx 
+
+
+INPUT FILE TEXT:
+
+&files
+  -p      ../1.GenTopology/POH.prmtop
+  -o      iter1/concat.out
+  -d      iter1/energies.dat
+  -x      iter1/coords.cdf
+&end
+
+&speval
+  data     conf1/Conf46.oout 
+  data     conf1/Conf47.oout 
+  data     conf1/Conf48.oout 
+  data     conf1/Conf49.oout 
+  data     conf1/Conf50.oout 
+  data     conf1/Conf51.oout 
+  data     conf1/Conf52.oout 
+  data     conf1/Conf53.oout 
+  data     conf1/Conf54.oout 
+  data     conf1/Conf55.oout 
+  data     conf1/Conf56.oout 
+  data     conf1/Conf57.oout 
+  data     conf1/Conf58.oout 
+  data     conf1/Conf59.oout 
+  data     conf1/Conf60.oout 
+  data     conf1/Conf61.oout 
+  data     conf1/Conf62.oout 
+  data     conf1/Conf63.oout 
+  data     conf1/Conf64.oout 
+  data     conf1/Conf65.oout 
+  data     conf1/Conf66.oout 
+  data     conf1/Conf67.oout 
+  data     conf1/Conf68.oout 
+  data     conf1/Conf69.oout 
+  data     conf1/Conf70.oout 
+  data     conf1/Conf71.oout 
+  data     conf1/Conf72.oout 
+  data     conf1/Conf73.oout 
+  data     conf1/Conf74.oout 
+  data     conf1/Conf75.oout 
+  data     conf1/Conf76.oout 
+  data     conf1/Conf77.oout 
+  data     conf1/Conf78.oout 
+  data     conf1/Conf79.oout 
+  data     conf1/Conf80.oout 
+  data     conf1/Conf81.oout 
+  data     conf1/Conf82.oout 
+  data     conf1/Conf83.oout 
+  data     conf1/Conf84.oout 
+  data     conf1/Conf85.oout 
+  data     conf1/Conf86.oout 
+  data     conf1/Conf87.oout 
+  data     conf1/Conf88.oout 
+  data     conf1/Conf89.oout 
+  data     conf1/Conf90.oout 
+  data     conf1/Conf91.oout 
+  data     conf1/Conf92.oout 
+  data     conf1/Conf93.oout 
+  data     conf1/Conf94.oout 
+  data     conf1/Conf95.oout 
+  data     conf1/Conf96.oout 
+  data     conf1/Conf97.oout 
+  data     conf1/Conf98.oout 
+  data     conf1/Conf99.oout 
+  data     conf1/Conf100.oout 
+  data     conf1/Conf101.oout 
+  data     conf1/Conf102.oout 
+  data     conf1/Conf103.oout 
+  data     conf1/Conf104.oout 
+  data     conf1/Conf105.oout 
+  data     conf1/Conf106.oout 
+  data     conf1/Conf107.oout 
+  data     conf1/Conf108.oout 
+  data     conf1/Conf109.oout 
+  data     conf1/Conf110.oout 
+  data     conf1/Conf111.oout 
+  data     conf1/Conf112.oout 
+  data     conf1/Conf113.oout 
+  data     conf1/Conf114.oout 
+  data     conf1/Conf115.oout 
+  data     conf1/Conf116.oout 
+  data     conf1/Conf117.oout 
+  data     conf1/Conf118.oout 
+  data     conf1/Conf119.oout 
+  data     conf1/Conf120.oout 
+  data     conf1/Conf121.oout 
+  data     conf1/Conf122.oout 
+  data     conf1/Conf123.oout 
+  data     conf1/Conf124.oout 
+  data     conf1/Conf125.oout 
+  data     conf1/Conf126.oout 
+  data     conf1/Conf127.oout 
+  data     conf1/Conf128.oout 
+  data     conf1/Conf129.oout 
+  data     conf1/Conf130.oout 
+  data     conf1/Conf131.oout 
+  data     conf1/Conf132.oout 
+  data     conf1/Conf133.oout 
+  data     conf1/Conf134.oout 
+  data     conf1/Conf226.oout 
+  data     conf1/Conf227.oout 
+  data     conf1/Conf228.oout 
+  data     conf1/Conf229.oout 
+  data     conf1/Conf230.oout 
+  data     conf1/Conf231.oout 
+  data     conf1/Conf232.oout 
+  data     conf1/Conf233.oout 
+  data     conf1/Conf234.oout 
+  data     conf1/Conf235.oout 
+  data     conf1/Conf236.oout 
+  data     conf1/Conf237.oout 
+  data     conf1/Conf238.oout 
+  data     conf1/Conf239.oout 
+  data     conf1/Conf240.oout 
+  data     conf1/Conf241.oout 
+  data     conf1/Conf242.oout 
+  data     conf1/Conf243.oout 
+  data     conf1/Conf244.oout 
+  data     conf1/Conf245.oout 
+  data     conf1/Conf246.oout 
+  data     conf1/Conf247.oout 
+  data     conf1/Conf248.oout 
+  data     conf1/Conf249.oout 
+  data     conf1/Conf250.oout 
+  data     conf1/Conf251.oout 
+  data     conf1/Conf252.oout 
+  data     conf1/Conf253.oout 
+  data     conf1/Conf254.oout 
+  data     conf1/Conf255.oout 
+  data     conf1/Conf256.oout 
+  data     conf1/Conf257.oout 
+  data     conf1/Conf258.oout 
+  data     conf1/Conf259.oout 
+  data     conf1/Conf260.oout 
+  data     conf1/Conf261.oout 
+  data     conf1/Conf262.oout 
+  data     conf1/Conf263.oout 
+  data     conf1/Conf264.oout 
+  data     conf1/Conf265.oout 
+  data     conf1/Conf266.oout 
+  data     conf1/Conf267.oout 
+  data     conf1/Conf268.oout 
+  data     conf1/Conf269.oout 
+  data     conf1/Conf270.oout 
+  data     conf1/Conf271.oout 
+  data     conf1/Conf272.oout 
+  data     conf1/Conf273.oout 
+  data     conf1/Conf274.oout 
+  data     conf1/Conf275.oout 
+  data     conf1/Conf276.oout 
+  data     conf1/Conf277.oout 
+  data     conf1/Conf278.oout 
+  data     conf1/Conf279.oout 
+  data     conf1/Conf280.oout 
+  data     conf1/Conf281.oout 
+  data     conf1/Conf282.oout 
+  data     conf1/Conf283.oout 
+  data     conf1/Conf284.oout 
+  data     conf1/Conf285.oout 
+  data     conf1/Conf286.oout 
+  data     conf1/Conf287.oout 
+  data     conf1/Conf288.oout 
+  data     conf1/Conf289.oout 
+  data     conf1/Conf290.oout 
+  data     conf1/Conf291.oout 
+  data     conf1/Conf292.oout 
+  data     conf1/Conf293.oout 
+  data     conf1/Conf294.oout 
+  data     conf1/Conf295.oout 
+  data     conf1/Conf296.oout 
+  data     conf1/Conf297.oout 
+  data     conf1/Conf298.oout 
+  data     conf1/Conf299.oout 
+  data     conf1/Conf300.oout 
+  data     conf1/Conf301.oout 
+  data     conf1/Conf302.oout 
+  data     conf1/Conf303.oout 
+  data     conf1/Conf304.oout 
+  data     conf1/Conf305.oout 
+  data     conf1/Conf306.oout 
+  data     conf1/Conf307.oout 
+  data     conf1/Conf308.oout 
+  data     conf1/Conf309.oout 
+  data     conf1/Conf310.oout 
+  data     conf1/Conf311.oout 
+  data     conf1/Conf312.oout 
+  data     conf1/Conf313.oout 
+  data     conf1/Conf314.oout 
+
+&end
+
+
+<++>-----------------------------------------------------------------------<++>
+
+<++>-----------------------------------------------------------------------<++>
+(1.) Summary of successes and failures.  A total of 178 structures and 
+     energies were read in, of which 178 passed inspection and were then 
+     written to the output trajectory iter1/coords.cdf and the energy data 
+     file iter1/energies.dat.
+
+<++>-----------------------------------------------------------------------<++>
+

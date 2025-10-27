@@ -1,0 +1,74 @@
+Residue Pair,0,1,2
+T1,"$\rm{\lambda}^{\rm{rb}}_{17}$=71.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{17}$:
+C6C2'(T1T1)
+C5C2'(T1T1)","$\rm{\lambda}^{\rm{rb}}_{22}$=65.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{22}$:
+C1'O2(T1T1)",
+T2,"$\rm{\lambda}^{\rm{rb}}_{1}$=103.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{1}$:
+C6C2'(T2T2)","$\rm{\lambda}^{\rm{rb}}_{25}$=64.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{25}$:
+C1'O2(T2T2)",
+A3,"$\rm{\lambda}^{\rm{rb}}_{18}$=70.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{18}$:
+C8C2'(A3A3)
+C4C2'(A3A3)",,
+G4,"$\rm{\lambda}^{\rm{rb}}_{7}$=85.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{7}$:
+C4C2'(G4G4)","$\rm{\lambda}^{\rm{rb}}_{38}$=56.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{38}$:
+C1'N3(G4G4)",
+G5,"$\rm{\lambda}^{\rm{rb}}_{16}$=71.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{16}$:
+C8C2'(G5G5)",,
+T7,"$\rm{\lambda}^{\rm{rb}}_{11}$=79.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{11}$:
+C6C2'(T7T7)
+C5C2'(T7T7)","$\rm{\lambda}^{\rm{rb}}_{32}$=60.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{32}$:
+C1'O2(T7T7)",
+T8,"$\rm{\lambda}^{\rm{rb}}_{12}$=78.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{12}$:
+C1'O2(T8T8)","$\rm{\lambda}^{\rm{rb}}_{14}$=77.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{14}$:
+C6C2'(T8T8)",
+A9,"$\rm{\lambda}^{\rm{rb}}_{34}$=58.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{34}$:
+O4'C8(A9A9)",,
+G10,"$\rm{\lambda}^{\rm{rb}}_{5}$=87.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{5}$:
+C4C2'(G10G10)
+C8C2'(G10G10)","$\rm{\lambda}^{\rm{rb}}_{29}$=62.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{29}$:
+C1'N3(G10G10)",
+G11,"$\rm{\lambda}^{\rm{rb}}_{8}$=85.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{8}$:
+C4C2'(G11G11)","$\rm{\lambda}^{\rm{rb}}_{43}$=51.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{43}$:
+C1'N3(G11G11)",
+G12,"$\rm{\lambda}^{\rm{rb}}_{31}$=61.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{31}$:
+C8C2'(G12G12)",,
+T13,"$\rm{\lambda}^{\rm{rb}}_{2}$=90.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{2}$:
+C2C2'(T13T13)
+C6C2'(T13T13)","$\rm{\lambda}^{\rm{rb}}_{33}$=60.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{33}$:
+C1'O2(T13T13)","$\rm{\lambda}^{\rm{rb}}_{39}$=55.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{39}$:
+O4'C6(T13T13)"
+T14,"$\rm{\lambda}^{\rm{rb}}_{30}$=62.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{30}$:
+C1'O2(T14T14)","$\rm{\lambda}^{\rm{rb}}_{37}$=56.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{37}$:
+O4'C6(T14T14)",
+A15,"$\rm{\lambda}^{\rm{rb}}_{36}$=56.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{36}$:
+C1'N3(A15A15)",,
+G16,"$\rm{\lambda}^{\rm{rb}}_{20}$=69.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{20}$:
+C4C2'(G16G16)",,
+G17,"$\rm{\lambda}^{\rm{rb}}_{28}$=63.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{28}$:
+C8C2'(G17G17)",,
+G18,"$\rm{\lambda}^{\rm{rb}}_{35}$=58.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{35}$:
+C8C2'(G18G18)",,
+T19,"$\rm{\lambda}^{\rm{rb}}_{10}$=83.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{10}$:
+C6C2'(T19T19)","$\rm{\lambda}^{\rm{rb}}_{21}$=69.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{21}$:
+C1'O2(T19T19)",
+T20,"$\rm{\lambda}^{\rm{rb}}_{3}$=90.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{3}$:
+C6C2'(T20T20)","$\rm{\lambda}^{\rm{rb}}_{23}$=65.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{23}$:
+C1'O2(T20T20)",
+A21,"$\rm{\lambda}^{\rm{rb}}_{6}$=86.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{6}$:
+C1'C6(A21A21)","$\rm{\lambda}^{\rm{rb}}_{45}$=50.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{45}$:
+O4'N7(A21A21)
+O4'C5(A21A21)",
+G22,"$\rm{\lambda}^{\rm{rb}}_{4}$=89.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{4}$:
+C4C2'(G22G22)
+C8C2'(G22G22)","$\rm{\lambda}^{\rm{rb}}_{27}$=63.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{27}$:
+O4'C8(G22G22)","$\rm{\lambda}^{\rm{rb}}_{40}$=55.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{40}$:
+C1'N3(G22G22)"
+G24,"$\rm{\lambda}^{\rm{rb}}_{26}$=63.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{26}$:
+C8C2'(G24G24)",,
+T25,"$\rm{\lambda}^{\rm{rb}}_{9}$=83.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{9}$:
+C6C2'(T25T25)","$\rm{\lambda}^{\rm{rb}}_{13}$=77.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{13}$:
+C1'O2(T25T25)",
+T26,"$\rm{\lambda}^{\rm{rb}}_{15}$=74.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{15}$:
+C6C2'(T26T26)
+O4'C6(T26T26)","$\rm{\lambda}^{\rm{rb}}_{24}$=64.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{rb}}_{24}$:
+C1'O2(T26T26)",

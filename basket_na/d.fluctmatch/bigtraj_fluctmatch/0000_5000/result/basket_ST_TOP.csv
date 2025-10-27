@@ -1,0 +1,54 @@
+Residue Pair,0,1,2,3,4,5,6,7,8,9
+"ss_st
+Q3,top","$\rm{\lambda}^{\rm{st}}_{1}$=22.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{1}$:
+C6C6(G2G3)
+C5C2(G2G3)
+C6N1(G2G3)
+C5N1(G2G3)","$\rm{\lambda}^{\rm{st}}_{2}$=19.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{2}$:
+C5C2(G2G3)
+C6C6(G2G3)
+C4C2(G2G3)
+C5N3(G2G3)","$\rm{\lambda}^{\rm{st}}_{4}$=16.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{4}$:
+C4C4(G2G3)
+C4N3(G2G3)
+C2C4(G2G3)","$\rm{\lambda}^{\rm{st}}_{5}$=14.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{5}$:
+N1C5(G2G3)
+C2C5(G2G3)","$\rm{\lambda}^{\rm{st}}_{9}$=12.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{9}$:
+N3C4(G2G3)
+C2C4(G2G3)","$\rm{\lambda}^{\rm{st}}_{12}$=10.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{12}$:
+N7N2(G2G3)
+N7C2(G2G3)","$\rm{\lambda}^{\rm{st}}_{15}$=9.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{15}$:
+C6N1(G2G3)
+O6C6(G2G3)","$\rm{\lambda}^{\rm{st}}_{17}$=9.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{17}$:
+C2C8(G2G3)","$\rm{\lambda}^{\rm{st}}_{23}$=7.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{23}$:
+N3N9(G2G3)","$\rm{\lambda}^{\rm{st}}_{28}$=6.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{28}$:
+N2N7(G2G3)"
+"ss_st
+Q2,top","$\rm{\lambda}^{\rm{st}}_{13}$=10.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{13}$:
+C6C5(G10G9)","$\rm{\lambda}^{\rm{st}}_{27}$=6.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{27}$:
+N1N7(G10G9)","$\rm{\lambda}^{\rm{st}}_{30}$=5.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{30}$:
+N2C4(G10G9)
+C5C4(G10G9)
+N2N3(G10G9)",,,,,,,
+"ss_st
+Q1,top","$\rm{\lambda}^{\rm{st}}_{7}$=13.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{7}$:
+C2N3(G22G21)","$\rm{\lambda}^{\rm{st}}_{10}$=11.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{10}$:
+C6N1(G22G21)
+N1N1(G22G21)",,,,,,,,
+"ss_st
+Q4,top","$\rm{\lambda}^{\rm{st}}_{3}$=18.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{3}$:
+C6C6(G14G15)
+C6C5(G14G21)","$\rm{\lambda}^{\rm{st}}_{26}$=6.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{26}$:
+N3C4(G14G15)",,,,,,,,
+"cs_st
+Q4Q1,top","$\rm{\lambda}^{\rm{st}}_{6}$=14.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{6}$:
+N1C6(G14G21)
+C5C4(G14G21)
+C5C5(G14G21)
+N1N1(G14G21)","$\rm{\lambda}^{\rm{st}}_{8}$=12.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{8}$:
+C5C5(G14G21)
+N1C6(G14G21)","$\rm{\lambda}^{\rm{st}}_{16}$=9.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{16}$:
+O6C2(G14G21)","$\rm{\lambda}^{\rm{st}}_{19}$=8.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{19}$:
+C2O6(G14G21)","$\rm{\lambda}^{\rm{st}}_{20}$=8.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{20}$:
+C4N7(G14G21)
+C4N3(G14G15)",,,,,

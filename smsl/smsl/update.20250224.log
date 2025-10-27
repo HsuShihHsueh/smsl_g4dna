@@ -1,0 +1,17 @@
+backboneAngle.py   (    )
+category.py        (    )
+config.py          (    )
+enmBuilder.py      (    )
+fluctMatch.py      (    )
+graphBigtraj.py    (    ) 
+graph.py           (    ) 
+makeDataframe.py   (    )
+mda.py             (    )
+multiWindows.py    (    )
+opt.py             (    )
+pairtype.py        (    )
+plotAgent.py       (    )
+trajTransfer.py    (    ) 
+
+其他：
+4system_with_drug/d.fluctmatch/5.5_rigidity_dg.ipynb (edit) 基於原本5.4._graph_clst.ipynb， 增加整體平均k^dg， 以及G四聯體各空間位置的k^dg計算

@@ -1,0 +1,14 @@
+Residue Pair,0
+Na1,"$\rm{\lambda}^{\rm{bm}}_{1}$=122.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{bm}}_{1}$:
+O6SOD(G21Na1)
+O6SOD(G9Na1)
+O6SOD(G15Na1)
+O6SOD(G3Na1)
+C6SOD(G9Na1)
+C6SOD(G21Na1)"
+Na2,"$\rm{\lambda}^{\rm{bm}}_{2}$=91.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{bm}}_{2}$:
+O6SOD(G16Na2)
+O6SOD(G8Na2)
+O6SOD(G20Na2)
+C6SOD(G20Na2)
+O6SOD(G4Na2)"

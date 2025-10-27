@@ -1,0 +1,21 @@
+backboneAngle.py   (    )
+category.py        (    )
+config.py          (    )
+enmBuilder.py      (    )
+fluctMatch.py      (    )
+graphBigtraj.py    (edit) plot_prominent_modes_xylim 變數中 pr0 與 pr1 subgroup 分家
+graph.py           (edit) 同時兼容dsdna prominent_mode分析, 並調整subgroup順序
+makeDataframe.py   (    )
+mda.py             (    )
+multiWindows.py    (    )
+opt.py             (    )
+pairtype.py        (    )
+plotAgent.py       (    )
+trajTransfer.py    (    ) 
+
+其他：
+all_systems/d.fluctmatch/4*.ipynb 確認並重新跑過, 程式部份未更動 (注意:dsdna 4.0_make_k_b0_df_bigtraj.ipynb的seg_select chainA與chainB選擇與G四聯體不同)
+all_systems/d.fluctmatch/5*.ipynb 確認並重新跑過, 程式部份僅BM做更動(更改K1,K2排列順序)
+summary/d.fluctmatch/*.ipynb      新增 RMSD/RMSF, non-zero k值統計, hotspot k值統計
+
+hybrid-ii_wtTel26_ewv 資料夾改名為 hybrid-ii_wttel26_ewv 以確保僅可識別小寫路徑的charmm可以正常執行 (同理apo, poh)

@@ -1,0 +1,14 @@
+backboneAngle.py   (new ) for alpha-zeta torsion angle
+category.py        (edit) update sub-group=bm, hb, st, rb, pr0, pr1
+config.py          (edit) update the name of gstrand=Q3, Q2, Q1, Q4 and layer=top, mid, bot
+enmBuilder.py      (    ) 
+fluctMatch.py      (edit) update the path of charmm executable file
+graphBigtraj.py    (edit) refine some plot detail
+graph.py           (edit) update the code about prominent mode，需要搭配新的config.py和pairtype.py才不會報錯
+makeDataframe.py   (edit) update the code about separating the sub-group algorithmn of G-qradruplex and DsDNA
+mda.py             (    ) 僅增加註解標示程式來源
+multiWindows.py    (    )
+opt.py             (    )
+pairtype.py        (edit) change the name from S(sugar) to R(ribose)
+plotAgent.py       (new ) 固定字體大小及字型的繪圖
+trajTransfer.py    (edit) 多線程套件從 multiprocessing.Process 替換成 concurrent.futures.ProcessPoolExecutor 以增加穩定性

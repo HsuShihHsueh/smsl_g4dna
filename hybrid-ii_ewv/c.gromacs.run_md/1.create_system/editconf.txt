@@ -1,0 +1,28 @@
+                     :-) GROMACS - gmx editconf, 2023.2 (-:
+
+Executable:   /home/user/opt/gromacs-2023/bin/gmx
+Data prefix:  /home/user/opt/gromacs-2023
+Working dir:  /home/user/workfolder/g4dna_protocol/hybrid-ii_ewv/c.gromacs.run_md/1.create_system
+Command line:
+  gmx editconf -f 2jpz_EWV.gro.pdb -o 2jpz_EWV_dode.pdb -c yes -d 1.29 -bt dodecahedron
+
+
+Back Off! I just backed up 2jpz_EWV_dode.pdb to ./#2jpz_EWV_dode.pdb.51#
+
+GROMACS reminds you: "So can we think of the canonical ensemble sort of like if you ran the same season of temptation island over and over again and took statistics about how many times each person hooks up with each other person?" (Teddy Press)
+
+Note that major changes are planned in future for editconf, to improve usability and utility.
+Read 760 atoms
+Volume: 159.248 nm^3, corresponds to roughly 71600 electrons
+No velocities found
+    system size :  2.580  2.964  2.445 (nm)
+    diameter    :  3.142               (nm)
+    center      :  0.032 -0.059 -0.069 (nm)
+    box vectors :  6.084  6.084  6.084 (nm)
+    box angles  :  60.00  60.00  90.00 (degrees)
+    box volume  : 159.25               (nm^3)
+    shift       :  4.259  4.351  2.092 (nm)
+new center      :  4.291  4.291  2.023 (nm)
+new box vectors :  5.722  5.722  5.722 (nm)
+new box angles  :  60.00  60.00  90.00 (degrees)
+new box volume  : 132.47               (nm^3)

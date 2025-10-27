@@ -1,0 +1,18 @@
+&files
+  -parm   ../1.GenTopology/POH.all.modify.frcmod
+  -d      iter1/POH.dat
+  -o      iter1/fit.out
+&end
+
+&param
+  System  ../1.GenTopology/POH.prmtop  iter1/coords.cdf  iter1/energies.dat
+  ParmOutput frcmod
+  eunits    hartree,
+  accrep    iter1/report.m
+  verbose    1,
+
+  % Torsion fitting input
+%  fith       CA CA CD CC
+%  hrst       0.0002,
+&end
+

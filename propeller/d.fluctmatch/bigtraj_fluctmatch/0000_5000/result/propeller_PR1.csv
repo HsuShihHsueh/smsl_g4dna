@@ -1,0 +1,104 @@
+Residue Pair,0,1,2,3
+A1G2,"$\rm{\lambda}^{\rm{pr1}}_{27}$=17.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{27}$:
+O3'C5'(A1G2)","$\rm{\lambda}^{\rm{pr1}}_{35}$=14.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{35}$:
+C3'O2P(A1G2)","$\rm{\lambda}^{\rm{pr1}}_{38}$=14.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{38}$:
+C2'O1P(A1G2)",
+G2G3,"$\rm{\lambda}^{\rm{pr1}}_{6}$=47.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{6}$:
+C3'O2P(G2G3)","$\rm{\lambda}^{\rm{pr1}}_{13}$=30.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{13}$:
+C2'P(G2G3)","$\rm{\lambda}^{\rm{pr1}}_{51}$=10.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{51}$:
+O3'C5'(G2G3)",
+G3G4,"$\rm{\lambda}^{\rm{pr1}}_{28}$=16.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{28}$:
+O3'C5'(G3G4)","$\rm{\lambda}^{\rm{pr1}}_{39}$=12.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{39}$:
+C2'O1P(G3G4)","$\rm{\lambda}^{\rm{pr1}}_{55}$=9.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{55}$:
+O4'O2P(G3G4)",
+G4T5,"$\rm{\lambda}^{\rm{pr1}}_{8}$=36.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{8}$:
+C3'O1P(G4T5)","$\rm{\lambda}^{\rm{pr1}}_{62}$=8.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{62}$:
+C2'O5'(G4T5)
+C2'P(G4T5)","$\rm{\lambda}^{\rm{pr1}}_{73}$=7.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{73}$:
+O4'O2P(G4T5)",
+T5T6,"$\rm{\lambda}^{\rm{pr1}}_{18}$=23.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{18}$:
+C3'O2P(T5T6)
+C3'O5'(T5T6)","$\rm{\lambda}^{\rm{pr1}}_{42}$=11.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{42}$:
+C2'O1P(T5T6)
+C2'P(T5T6)","$\rm{\lambda}^{\rm{pr1}}_{50}$=10.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{50}$:
+O3'C5'(T5T6)
+O3'C4'(T5T6)",
+T6A7,"$\rm{\lambda}^{\rm{pr1}}_{5}$=50.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{5}$:
+C3'O2P(T6A7)","$\rm{\lambda}^{\rm{pr1}}_{9}$=35.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{9}$:
+C2'O5'(T6A7)
+C2'P(T6A7)","$\rm{\lambda}^{\rm{pr1}}_{21}$=21.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{21}$:
+O3'C5'(T6A7)",
+A7G8,"$\rm{\lambda}^{\rm{pr1}}_{11}$=32.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{11}$:
+C3'O2P(A7G8)","$\rm{\lambda}^{\rm{pr1}}_{20}$=21.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{20}$:
+C2'O1P(A7G8)","$\rm{\lambda}^{\rm{pr1}}_{37}$=14.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{37}$:
+C4'O5'(A7G8)","$\rm{\lambda}^{\rm{pr1}}_{61}$=8.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{61}$:
+O3'C5'(A7G8)"
+G8G9,"$\rm{\lambda}^{\rm{pr1}}_{2}$=56.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{2}$:
+C3'O2P(G8G9)","$\rm{\lambda}^{\rm{pr1}}_{26}$=17.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{26}$:
+C2'O1P(G8G9)","$\rm{\lambda}^{\rm{pr1}}_{65}$=8.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{65}$:
+O3'C5'(G8G9)",
+G9G10,"$\rm{\lambda}^{\rm{pr1}}_{34}$=15.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{34}$:
+O3'C5'(G9G10)","$\rm{\lambda}^{\rm{pr1}}_{49}$=10.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{49}$:
+C2'P(G9G10)
+C2'O1P(G9G10)","$\rm{\lambda}^{\rm{pr1}}_{69}$=7.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{69}$:
+C3'O2P(G9G10)","$\rm{\lambda}^{\rm{pr1}}_{78}$=6.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{78}$:
+C1'P(G9G10)"
+G10T11,"$\rm{\lambda}^{\rm{pr1}}_{16}$=29.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{16}$:
+C3'O1P(G10T11)","$\rm{\lambda}^{\rm{pr1}}_{33}$=15.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{33}$:
+C4'O2P(G10T11)","$\rm{\lambda}^{\rm{pr1}}_{41}$=11.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{41}$:
+C2'O5'(G10T11)",
+T11T12,"$\rm{\lambda}^{\rm{pr1}}_{7}$=39.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{7}$:
+C3'O2P(T11T12)","$\rm{\lambda}^{\rm{pr1}}_{24}$=19.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{24}$:
+C2'O1P(T11T12)",,
+T12A13,"$\rm{\lambda}^{\rm{pr1}}_{15}$=29.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{15}$:
+C3'O2P(T12A13)
+C3'O5'(T12A13)","$\rm{\lambda}^{\rm{pr1}}_{31}$=16.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{31}$:
+C2'O1P(T12A13)","$\rm{\lambda}^{\rm{pr1}}_{58}$=9.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{58}$:
+O3'C5'(T12A13)","$\rm{\lambda}^{\rm{pr1}}_{83}$=5.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{83}$:
+O3'C4'(T12A13)"
+A13G14,"$\rm{\lambda}^{\rm{pr1}}_{10}$=32.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{10}$:
+C3'O2P(A13G14)","$\rm{\lambda}^{\rm{pr1}}_{44}$=11.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{44}$:
+C4'O5'(A13G14)","$\rm{\lambda}^{\rm{pr1}}_{54}$=9.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{54}$:
+C2'O1P(A13G14)","$\rm{\lambda}^{\rm{pr1}}_{90}$=4.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{90}$:
+O3'O4'(A13G14)"
+G14G15,"$\rm{\lambda}^{\rm{pr1}}_{4}$=52.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{4}$:
+C3'O2P(G14G15)","$\rm{\lambda}^{\rm{pr1}}_{19}$=21.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{19}$:
+C2'O1P(G14G15)
+C2'O5'(G14G15)","$\rm{\lambda}^{\rm{pr1}}_{71}$=7.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{71}$:
+O3'C5'(G14G15)",
+G15G16,"$\rm{\lambda}^{\rm{pr1}}_{30}$=16.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{30}$:
+O3'C5'(G15G16)","$\rm{\lambda}^{\rm{pr1}}_{47}$=10.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{47}$:
+C2'O1P(G15G16)","$\rm{\lambda}^{\rm{pr1}}_{59}$=8.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{59}$:
+C3'O2P(G15G16)","$\rm{\lambda}^{\rm{pr1}}_{89}$=4.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{89}$:
+C1'P(G15G16)"
+G16T17,"$\rm{\lambda}^{\rm{pr1}}_{12}$=31.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{12}$:
+C3'O1P(G16T17)","$\rm{\lambda}^{\rm{pr1}}_{56}$=9.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{56}$:
+C2'O5'(G16T17)","$\rm{\lambda}^{\rm{pr1}}_{77}$=6.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{77}$:
+C4'O2P(G16T17)
+O4'O2P(G16T17)",
+T17T18,"$\rm{\lambda}^{\rm{pr1}}_{23}$=19.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{23}$:
+C3'O5'(T17T18)
+C3'O2P(T17T18)","$\rm{\lambda}^{\rm{pr1}}_{67}$=7.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{67}$:
+O3'C4'(T17T18)","$\rm{\lambda}^{\rm{pr1}}_{86}$=5.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{86}$:
+O4'O1P(T17T18)",
+T18A19,"$\rm{\lambda}^{\rm{pr1}}_{1}$=59.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{1}$:
+C3'O2P(T18A19)","$\rm{\lambda}^{\rm{pr1}}_{14}$=30.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{14}$:
+C2'O1P(T18A19)","$\rm{\lambda}^{\rm{pr1}}_{22}$=19.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{22}$:
+O3'C5'(T18A19)",
+A19G20,"$\rm{\lambda}^{\rm{pr1}}_{25}$=18.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{25}$:
+C3'O2P(A19G20)
+C3'O5'(A19G20)","$\rm{\lambda}^{\rm{pr1}}_{29}$=16.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{29}$:
+C2'O1P(A19G20)","$\rm{\lambda}^{\rm{pr1}}_{40}$=12.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{40}$:
+C4'O5'(A19G20)",
+G20G21,"$\rm{\lambda}^{\rm{pr1}}_{3}$=54.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{3}$:
+C3'O2P(G20G21)","$\rm{\lambda}^{\rm{pr1}}_{17}$=25.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{17}$:
+C2'O1P(G20G21)
+C2'O5'(G20G21)","$\rm{\lambda}^{\rm{pr1}}_{68}$=7.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{68}$:
+O3'C5'(G20G21)","$\rm{\lambda}^{\rm{pr1}}_{74}$=7.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{74}$:
+C3'O1P(G20G21)"
+G21G22,"$\rm{\lambda}^{\rm{pr1}}_{43}$=11.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{43}$:
+C2'O1P(G21G22)
+C2'P(G21G22)","$\rm{\lambda}^{\rm{pr1}}_{48}$=10.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{48}$:
+C3'O2P(G21G22)","$\rm{\lambda}^{\rm{pr1}}_{79}$=6.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{pr1}}_{79}$:
+O4'O5'(G21G22)
+C4'O5'(G21G22)",

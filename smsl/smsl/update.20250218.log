@@ -1,0 +1,23 @@
+backboneAngle.py   (    )
+category.py        (    )
+config.py          (    )
+enmBuilder.py      (    )
+fluctMatch.py      (    )
+graphBigtraj.py    (edit) 增加clst子群
+graph.py           (edit) 增加clst子群
+makeDataframe.py   (    )
+mda.py             (    )
+multiWindows.py    (    )
+opt.py             (    )
+pairtype.py        (    )
+plotAgent.py       (    )
+trajTransfer.py    (    ) 
+
+其他：
+summary/d.fluctmatch/tab5.11.hotspot_dsdna.ipynb 修復舊版本matplotlib(<3.7) set_xticks(fontdict) 報錯問題
+summary/d.fluctmatch/fig5.29,30,35,40.ks_vsplot.ipynb 修復舊版本matplotlib(<3.7) set_xticks(fontdict) 報錯問題
+summary/d.fluctmatch/tab5.71.hotspot_st_top6.ipynb 新增以top6強的kaiaj計算的kst數值
+summary/d.fluctmatch/tab5.81.hotspot_rb_top5.ipynb 新增以top5強的kaiaj計算的krb數值
+系統1~5(wtTel22-G4DNA)/d.fluctmatch/5.4._graph_clst.ipynb 找clst的hotspot 以及計算kclst數值
+all_systems/d.fluctmatch/bigtraj_fluctmatch 新增以bsc1力場所有經fluctmatch計算後的data
+summary/d.fluctmatch/data/table_clst.pdf 新增系統1~5的kclst表格

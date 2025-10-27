@@ -1,0 +1,78 @@
+Residue Pair,0,1,2,3,4,5,6,7
+"ss_st
+Q3,top","$\rm{\lambda}^{\rm{st}}_{2}$=35.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{2}$:
+C5C5(G2G3)
+C4C5(G2G3)
+N7C5(G2G3)
+C6C5(G2G3)","$\rm{\lambda}^{\rm{st}}_{5}$=22.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{5}$:
+C6C6(G2G3)
+C6O6(G2G3)
+O6C6(G2G3)","$\rm{\lambda}^{\rm{st}}_{9}$=16.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{9}$:
+C4N7(G2G3)","$\rm{\lambda}^{\rm{st}}_{10}$=16.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{10}$:
+C5N7(G2G3)
+C6C5(G2G3)
+C6O6(G2G3)","$\rm{\lambda}^{\rm{st}}_{13}$=14.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{13}$:
+C8C4(G2G3)
+N7C4(G2G3)","$\rm{\lambda}^{\rm{st}}_{21}$=11.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{21}$:
+O6O6(G2G3)","$\rm{\lambda}^{\rm{st}}_{24}$=10.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{24}$:
+N9N9(G2G3)
+C8N9(G2G3)
+N9C8(G2G3)","$\rm{\lambda}^{\rm{st}}_{30}$=9.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{30}$:
+N9C8(G2G3)"
+"ss_st
+Q2,top","$\rm{\lambda}^{\rm{st}}_{1}$=37.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{1}$:
+C5C5(G8G9)
+C6C5(G8G9)","$\rm{\lambda}^{\rm{st}}_{4}$=25.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{4}$:
+C6C6(G8G9)
+C6O6(G8G9)
+O6C6(G8G9)
+O6O6(G8G9)","$\rm{\lambda}^{\rm{st}}_{6}$=19.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{6}$:
+C4N7(G8G9)
+N3N7(G8G9)","$\rm{\lambda}^{\rm{st}}_{7}$=17.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{7}$:
+O6O6(G8G9)","$\rm{\lambda}^{\rm{st}}_{12}$=15.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{12}$:
+C4C5(G8G9)
+C5C4(G8G9)","$\rm{\lambda}^{\rm{st}}_{15}$=14.0, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{15}$:
+N7C4(G8G9)
+C8C4(G8G9)","$\rm{\lambda}^{\rm{st}}_{22}$=11.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{22}$:
+N9C8(G8G9)
+N9N9(G8G9)",
+"ss_st
+Q1,top","$\rm{\lambda}^{\rm{st}}_{11}$=15.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{11}$:
+O6C6(G16G15)
+C6C6(G16G15)
+O6O6(G16G15)
+C6C5(G16G15)","$\rm{\lambda}^{\rm{st}}_{19}$=12.5, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{19}$:
+C6C5(G16G15)
+O6O6(G16G15)","$\rm{\lambda}^{\rm{st}}_{27}$=9.6, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{27}$:
+C5C4(G16G15)
+C5C5(G16G15)",,,,,
+"ss_st
+Q4,top","$\rm{\lambda}^{\rm{st}}_{3}$=27.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{3}$:
+C5C5(G20G21)
+N7C5(G20G21)","$\rm{\lambda}^{\rm{st}}_{8}$=16.7, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{8}$:
+N7C4(G20G21)
+C8C4(G20G21)","$\rm{\lambda}^{\rm{st}}_{14}$=14.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{14}$:
+C4N7(G20G21)
+C6C6(G20G21)
+N9N7(G20G21)","$\rm{\lambda}^{\rm{st}}_{16}$=13.9, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{16}$:
+C6C6(G20G21)
+O6C6(G20G21)","$\rm{\lambda}^{\rm{st}}_{20}$=12.2, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{20}$:
+C5C4(G20G21)","$\rm{\lambda}^{\rm{st}}_{23}$=10.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{23}$:
+N9N9(G20G21)
+C8N9(G20G21)",,
+"cs_st
+Q3Q4,top","$\rm{\lambda}^{\rm{st}}_{25}$=10.3, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{25}$:
+N1N1(G2G21)
+C2N1(G2G21)",,,,,,,
+"cs_st
+Q2Q3,top","$\rm{\lambda}^{\rm{st}}_{17}$=12.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{17}$:
+N1N1(G8G3)
+C2N1(G8G3)","$\rm{\lambda}^{\rm{st}}_{28}$=9.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{28}$:
+C2N2(G8G3)
+C2C2(G8G3)",,,,,,
+"cs_st
+Q4Q1,top","$\rm{\lambda}^{\rm{st}}_{18}$=12.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{st}}_{18}$:
+C2N2(G20G15)
+C2C2(G20G15)
+C2N1(G20G15)
+N2N2(G20G15)",,,,,,,

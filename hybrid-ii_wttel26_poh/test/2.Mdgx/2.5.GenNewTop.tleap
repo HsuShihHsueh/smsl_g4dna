@@ -1,0 +1,6 @@
+POH=loadmol2 ../1.GenTopology/POH.mol2
+loadamberparams iter1/POH.all.mdgx.frcmod
+check ## just for check
+saveamberparm POH iter1/POH.prmtop iter1/POH.rst7
+quit
+

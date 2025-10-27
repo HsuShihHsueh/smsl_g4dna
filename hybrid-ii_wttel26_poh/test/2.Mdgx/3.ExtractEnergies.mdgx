@@ -1,0 +1,11 @@
+&files
+  -p      tmpyp4.prmtop
+  -o      iter1/concat.out
+  -d      iter1/energies.dat
+  -x      iter1/coords.cdf
+&end
+
+&speval
+  data    conf11/Conf*.oout
+&end
+

@@ -1,0 +1,20 @@
+name: smsl
+channels:
+  - conda-forge
+dependencies:
+  - gromacs=2024.2
+  - mdanalysis=2.9.0
+  - ambertools=23.3 #24.8
+  - pymol-open-source=2.5
+  - acpype=2023.10.27
+  - matplotlib=3.10.1
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - seaborn=0.13.2
+  - scipy=1.15.2
+  - tqdm=4.67.1
+  - psutil=7.0.0
+  - mamba=2.0.4
+  - python=3.11.11
+  - pip=25.0.1
+

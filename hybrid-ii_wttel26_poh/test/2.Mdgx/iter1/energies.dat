@@ -1,0 +1,544 @@
+% The following energies apply to conformations described by the topology 
+% ../1.GenTopology/POH.prmtop.  Structures are given in trajectory 
+% iter1/coords.cdf, count: 180.
+
+% Item 0:
+%   Energy -> conf1/Conf45.oout
+  -2130.90851472
+% Item 1:
+%   Energy -> conf1/Conf46.oout
+  -2130.90982816
+% Item 2:
+%   Energy -> conf1/Conf47.oout
+  -2130.91017500
+% Item 3:
+%   Energy -> conf1/Conf48.oout
+  -2130.91092087
+% Item 4:
+%   Energy -> conf1/Conf49.oout
+  -2130.91159675
+% Item 5:
+%   Energy -> conf1/Conf50.oout
+  -2130.91204554
+% Item 6:
+%   Energy -> conf1/Conf51.oout
+  -2130.91252704
+% Item 7:
+%   Energy -> conf1/Conf52.oout
+  -2130.91308819
+% Item 8:
+%   Energy -> conf1/Conf53.oout
+  -2130.91328832
+% Item 9:
+%   Energy -> conf1/Conf54.oout
+  -2130.91342282
+% Item 10:
+%   Energy -> conf1/Conf55.oout
+  -2130.91345774
+% Item 11:
+%   Energy -> conf1/Conf56.oout
+  -2130.91356286
+% Item 12:
+%   Energy -> conf1/Conf57.oout
+  -2130.91356947
+% Item 13:
+%   Energy -> conf1/Conf58.oout
+  -2130.91349194
+% Item 14:
+%   Energy -> conf1/Conf59.oout
+  -2130.91316714
+% Item 15:
+%   Energy -> conf1/Conf60.oout
+  -2130.91289627
+% Item 16:
+%   Energy -> conf1/Conf61.oout
+  -2130.91258012
+% Item 17:
+%   Energy -> conf1/Conf62.oout
+  -2130.91205505
+% Item 18:
+%   Energy -> conf1/Conf63.oout
+  -2130.91116645
+% Item 19:
+%   Energy -> conf1/Conf64.oout
+  -2130.91095090
+% Item 20:
+%   Energy -> conf1/Conf65.oout
+  -2130.90963202
+% Item 21:
+%   Energy -> conf1/Conf66.oout
+  -2130.90861034
+% Item 22:
+%   Energy -> conf1/Conf67.oout
+  -2130.90737143
+% Item 23:
+%   Energy -> conf1/Conf68.oout
+  -2130.90719065
+% Item 24:
+%   Energy -> conf1/Conf69.oout
+  -2130.90452177
+% Item 25:
+%   Energy -> conf1/Conf70.oout
+  -2130.90424847
+% Item 26:
+%   Energy -> conf1/Conf71.oout
+  -2130.90260874
+% Item 27:
+%   Energy -> conf1/Conf72.oout
+  -2130.89919270
+% Item 28:
+%   Energy -> conf1/Conf73.oout
+  -2130.89700851
+% Item 29:
+%   Energy -> conf1/Conf74.oout
+  -2130.89489799
+% Item 30:
+%   Energy -> conf1/Conf75.oout
+  -2130.89295500
+% Item 31:
+%   Energy -> conf1/Conf76.oout
+  -2130.89140562
+% Item 32:
+%   Energy -> conf1/Conf77.oout
+  -2130.88916758
+% Item 33:
+%   Energy -> conf1/Conf78.oout
+  -2130.88532890
+% Item 34:
+%   Energy -> conf1/Conf79.oout
+  -2130.88288257
+% Item 35:
+%   Energy -> conf1/Conf80.oout
+  -2130.88067741
+% Item 36:
+%   Energy -> conf1/Conf81.oout
+  -2130.87860895
+% Item 37:
+%   Energy -> conf1/Conf82.oout
+  -2130.87610715
+% Item 38:
+%   Energy -> conf1/Conf83.oout
+  -2130.87461226
+% Item 39:
+%   Energy -> conf1/Conf84.oout
+  -2130.87248346
+% Item 40:
+%   Energy -> conf1/Conf85.oout
+  -2130.87155061
+% Item 41:
+%   Energy -> conf1/Conf86.oout
+  -2130.87049817
+% Item 42:
+%   Energy -> conf1/Conf87.oout
+  -2130.87006168
+% Item 43:
+%   Energy -> conf1/Conf88.oout
+  -2130.86903372
+% Item 44:
+%   Energy -> conf1/Conf89.oout
+  -2130.86888590
+% Item 45:
+%   Energy -> conf1/Conf90.oout
+  -2130.86869598
+% Item 46:
+%   Energy -> conf1/Conf91.oout
+  -2130.86877800
+% Item 47:
+%   Energy -> conf1/Conf92.oout
+  -2130.86930423
+% Item 48:
+%   Energy -> conf1/Conf93.oout
+  -2130.86967619
+% Item 49:
+%   Energy -> conf1/Conf94.oout
+  -2130.87025173
+% Item 50:
+%   Energy -> conf1/Conf95.oout
+  -2130.87136299
+% Item 51:
+%   Energy -> conf1/Conf96.oout
+  -2130.87293112
+% Item 52:
+%   Energy -> conf1/Conf97.oout
+  -2130.87533049
+% Item 53:
+%   Energy -> conf1/Conf98.oout
+  -2130.87793462
+% Item 54:
+%   Energy -> conf1/Conf99.oout
+  -2130.87914566
+% Item 55:
+%   Energy -> conf1/Conf100.oout
+  -2130.88189661
+% Item 56:
+%   Energy -> conf1/Conf101.oout
+  -2130.88457634
+% Item 57:
+%   Energy -> conf1/Conf102.oout
+  -2130.88603132
+% Item 58:
+%   Energy -> conf1/Conf103.oout
+  -2130.88985894
+% Item 59:
+%   Energy -> conf1/Conf104.oout
+  -2130.89144885
+% Item 60:
+%   Energy -> conf1/Conf105.oout
+  -2130.89487519
+% Item 61:
+%   Energy -> conf1/Conf106.oout
+  -2130.89526404
+% Item 62:
+%   Energy -> conf1/Conf107.oout
+  -2130.89832974
+% Item 63:
+%   Energy -> conf1/Conf108.oout
+  -2130.89968772
+% Item 64:
+%   Energy -> conf1/Conf109.oout
+  -2130.90268314
+% Item 65:
+%   Energy -> conf1/Conf110.oout
+  -2130.90458392
+% Item 66:
+%   Energy -> conf1/Conf111.oout
+  -2130.90485948
+% Item 67:
+%   Energy -> conf1/Conf112.oout
+  -2130.90668301
+% Item 68:
+%   Energy -> conf1/Conf113.oout
+  -2130.90794945
+% Item 69:
+%   Energy -> conf1/Conf114.oout
+  -2130.90970365
+% Item 70:
+%   Energy -> conf1/Conf115.oout
+  -2130.91081674
+% Item 71:
+%   Energy -> conf1/Conf116.oout
+  -2130.91190110
+% Item 72:
+%   Energy -> conf1/Conf117.oout
+  -2130.91213560
+% Item 73:
+%   Energy -> conf1/Conf118.oout
+  -2130.91296445
+% Item 74:
+%   Energy -> conf1/Conf119.oout
+  -2130.91365221
+% Item 75:
+%   Energy -> conf1/Conf120.oout
+  -2130.91452538
+% Item 76:
+%   Energy -> conf1/Conf121.oout
+  -2130.91478947
+% Item 77:
+%   Energy -> conf1/Conf122.oout
+  -2130.91529262
+% Item 78:
+%   Energy -> conf1/Conf123.oout
+  -2130.91544000
+% Item 79:
+%   Energy -> conf1/Conf124.oout
+  -2130.91573519
+% Item 80:
+%   Energy -> conf1/Conf125.oout
+  -2130.91593190
+% Item 81:
+%   Energy -> conf1/Conf126.oout
+  -2130.91604600
+% Item 82:
+%   Energy -> conf1/Conf127.oout
+  -2130.91608354
+% Item 83:
+%   Energy -> conf1/Conf128.oout
+  -2130.91610105
+% Item 84:
+%   Energy -> conf1/Conf129.oout
+  -2130.91599965
+% Item 85:
+%   Energy -> conf1/Conf130.oout
+  -2130.91585645
+% Item 86:
+%   Energy -> conf1/Conf131.oout
+  -2130.91584202
+% Item 87:
+%   Energy -> conf1/Conf132.oout
+  -2130.91539497
+% Item 88:
+%   Energy -> conf1/Conf133.oout
+  -2130.91512723
+% Item 89:
+%   Energy -> conf1/Conf134.oout
+  -2130.91484777
+% Item 90:
+%   Energy -> conf1/Conf135.oout
+  -2130.91465502
+% Item 91:
+%   Energy -> conf1/Conf226.oout
+  -2130.90973564
+% Item 92:
+%   Energy -> conf1/Conf227.oout
+  -2130.91059511
+% Item 93:
+%   Energy -> conf1/Conf228.oout
+  -2130.91081081
+% Item 94:
+%   Energy -> conf1/Conf229.oout
+  -2130.91178459
+% Item 95:
+%   Energy -> conf1/Conf230.oout
+  -2130.91223378
+% Item 96:
+%   Energy -> conf1/Conf231.oout
+  -2130.91277865
+% Item 97:
+%   Energy -> conf1/Conf232.oout
+  -2130.91304249
+% Item 98:
+%   Energy -> conf1/Conf233.oout
+  -2130.91320187
+% Item 99:
+%   Energy -> conf1/Conf234.oout
+  -2130.91345801
+% Item 100:
+%   Energy -> conf1/Conf235.oout
+  -2130.91353586
+% Item 101:
+%   Energy -> conf1/Conf236.oout
+  -2130.91352788
+% Item 102:
+%   Energy -> conf1/Conf237.oout
+  -2130.91349525
+% Item 103:
+%   Energy -> conf1/Conf238.oout
+  -2130.91343511
+% Item 104:
+%   Energy -> conf1/Conf239.oout
+  -2130.91303386
+% Item 105:
+%   Energy -> conf1/Conf240.oout
+  -2130.91278303
+% Item 106:
+%   Energy -> conf1/Conf241.oout
+  -2130.91247144
+% Item 107:
+%   Energy -> conf1/Conf242.oout
+  -2130.91217412
+% Item 108:
+%   Energy -> conf1/Conf243.oout
+  -2130.91152746
+% Item 109:
+%   Energy -> conf1/Conf244.oout
+  -2130.91061622
+% Item 110:
+%   Energy -> conf1/Conf245.oout
+  -2130.90931677
+% Item 111:
+%   Energy -> conf1/Conf246.oout
+  -2130.90831872
+% Item 112:
+%   Energy -> conf1/Conf247.oout
+  -2130.90746354
+% Item 113:
+%   Energy -> conf1/Conf248.oout
+  -2130.90623501
+% Item 114:
+%   Energy -> conf1/Conf249.oout
+  -2130.90473903
+% Item 115:
+%   Energy -> conf1/Conf250.oout
+  -2130.90384103
+% Item 116:
+%   Energy -> conf1/Conf251.oout
+  -2130.90198258
+% Item 117:
+%   Energy -> conf1/Conf252.oout
+  -2130.89905585
+% Item 118:
+%   Energy -> conf1/Conf253.oout
+  -2130.89855504
+% Item 119:
+%   Energy -> conf1/Conf254.oout
+  -2130.89641384
+% Item 120:
+%   Energy -> conf1/Conf255.oout
+  -2130.89266212
+% Item 121:
+%   Energy -> conf1/Conf256.oout
+  -2130.89069552
+% Item 122:
+%   Energy -> conf1/Conf257.oout
+  -2130.88870061
+% Item 123:
+%   Energy -> conf1/Conf258.oout
+  -2130.88653211
+% Item 124:
+%   Energy -> conf1/Conf259.oout
+  -2130.88320979
+% Item 125:
+%   Energy -> conf1/Conf260.oout
+  -2130.87988569
+% Item 126:
+%   Energy -> conf1/Conf261.oout
+  -2130.87777402
+% Item 127:
+%   Energy -> conf1/Conf262.oout
+  -2130.87555165
+% Item 128:
+%   Energy -> conf1/Conf263.oout
+  -2130.87388285
+% Item 129:
+%   Energy -> conf1/Conf264.oout
+  -2130.87304762
+% Item 130:
+%   Energy -> conf1/Conf265.oout
+  -2130.87119311
+% Item 131:
+%   Energy -> conf1/Conf266.oout
+  -2130.87002849
+% Item 132:
+%   Energy -> conf1/Conf267.oout
+  -2130.86949680
+% Item 133:
+%   Energy -> conf1/Conf268.oout
+  -2130.86895728
+% Item 134:
+%   Energy -> conf1/Conf269.oout
+  -2130.86874403
+% Item 135:
+%   Energy -> conf1/Conf270.oout
+  -2130.86860982
+% Item 136:
+%   Energy -> conf1/Conf271.oout
+  -2130.86891532
+% Item 137:
+%   Energy -> conf1/Conf272.oout
+  -2130.86905230
+% Item 138:
+%   Energy -> conf1/Conf273.oout
+  -2130.86980927
+% Item 139:
+%   Energy -> conf1/Conf274.oout
+  -2130.87034919
+% Item 140:
+%   Energy -> conf1/Conf275.oout
+  -2130.87254906
+% Item 141:
+%   Energy -> conf1/Conf276.oout
+  -2130.87400325
+% Item 142:
+%   Energy -> conf1/Conf277.oout
+  -2130.87414877
+% Item 143:
+%   Energy -> conf1/Conf278.oout
+  -2130.87737589
+% Item 144:
+%   Energy -> conf1/Conf279.oout
+  -2130.87967980
+% Item 145:
+%   Energy -> conf1/Conf280.oout
+  -2130.88052970
+% Item 146:
+%   Energy -> conf1/Conf281.oout
+  -2130.88470486
+% Item 147:
+%   Energy -> conf1/Conf282.oout
+  -2130.88627485
+% Item 148:
+%   Energy -> conf1/Conf283.oout
+  -2130.88994724
+% Item 149:
+%   Energy -> conf1/Conf284.oout
+  -2130.89251243
+% Item 150:
+%   Energy -> conf1/Conf285.oout
+  -2130.89275405
+% Item 151:
+%   Energy -> conf1/Conf286.oout
+  -2130.89720300
+% Item 152:
+%   Energy -> conf1/Conf287.oout
+  -2130.89861583
+% Item 153:
+%   Energy -> conf1/Conf288.oout
+  -2130.90019581
+% Item 154:
+%   Energy -> conf1/Conf289.oout
+  -2130.90310757
+% Item 155:
+%   Energy -> conf1/Conf290.oout
+  -2130.90446059
+% Item 156:
+%   Energy -> conf1/Conf291.oout
+  -2130.90529610
+% Item 157:
+%   Energy -> conf1/Conf292.oout
+  -2130.90676003
+% Item 158:
+%   Energy -> conf1/Conf293.oout
+  -2130.90894791
+% Item 159:
+%   Energy -> conf1/Conf294.oout
+  -2130.90963186
+% Item 160:
+%   Energy -> conf1/Conf295.oout
+  -2130.91066223
+% Item 161:
+%   Energy -> conf1/Conf296.oout
+  -2130.91192653
+% Item 162:
+%   Energy -> conf1/Conf297.oout
+  -2130.91262368
+% Item 163:
+%   Energy -> conf1/Conf298.oout
+  -2130.91320253
+% Item 164:
+%   Energy -> conf1/Conf299.oout
+  -2130.91373922
+% Item 165:
+%   Energy -> conf1/Conf300.oout
+  -2130.91461004
+% Item 166:
+%   Energy -> conf1/Conf301.oout
+  -2130.91486503
+% Item 167:
+%   Energy -> conf1/Conf302.oout
+  -2130.91535260
+% Item 168:
+%   Energy -> conf1/Conf303.oout
+  -2130.91553115
+% Item 169:
+%   Energy -> conf1/Conf304.oout
+  -2130.91567195
+% Item 170:
+%   Energy -> conf1/Conf305.oout
+  -2130.91599231
+% Item 171:
+%   Energy -> conf1/Conf306.oout
+  -2130.91605857
+% Item 172:
+%   Energy -> conf1/Conf307.oout
+  -2130.91613492
+% Item 173:
+%   Energy -> conf1/Conf308.oout
+  -2130.91616620
+% Item 174:
+%   Energy -> conf1/Conf309.oout
+  -2130.91614102
+% Item 175:
+%   Energy -> conf1/Conf310.oout
+  -2130.91592369
+% Item 176:
+%   Energy -> conf1/Conf311.oout
+  -2130.91588508
+% Item 177:
+%   Energy -> conf1/Conf312.oout
+  -2130.91560191
+% Item 178:
+%   Energy -> conf1/Conf313.oout
+  -2130.91542447
+% Item 179:
+%   Energy -> conf1/Conf314.oout
+  -2130.91507664

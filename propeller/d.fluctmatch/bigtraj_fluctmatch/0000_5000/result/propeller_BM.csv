@@ -1,0 +1,15 @@
+Residue Pair,0,1
+K1,"$\rm{\lambda}^{\rm{bm}}_{1}$=118.4, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{bm}}_{1}$:
+O6POT(G2K1)
+O6POT(G20K1)
+O6POT(G14K1)
+O6POT(G8K1)
+O6POT(G15K1)
+C6POT(G2K1)
+C6POT(G20K1)",
+K2,"$\rm{\lambda}^{\rm{bm}}_{2}$=88.1, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{bm}}_{2}$:
+O6POT(G22K2)
+O6POT(G10K2)
+O6POT(G16K2)
+O6POT(G4K2)","$\rm{\lambda}^{\rm{bm}}_{32}$=0.8, ${\{\rm{a}_i\rm{a}_j\}}^{\rm{bm}}_{32}$:
+C6POT(G21K2)"

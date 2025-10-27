@@ -1,0 +1,23 @@
+&files
+  -parm   tmpyp4.all.modify.frcmod
+  -d      iter1/tmpyp4.dat
+  -o      iter1/fit.out
+&end
+
+&param
+  System  tmpyp4.prmtop  iter1/coords.cdf  iter1/energies.dat
+  ParmOutput frcmod
+  eunits    hartree,
+  accrep    iter1/report.m
+  verbose    1,
+
+  % Angle fitting input
+  %fita       C* C* HA
+  %FitAnglEq  1,
+  %arst       0.0002,
+  %arstcpl    1.0,
+
+  % Torsion fitting input
+  fith       CA CA CD CC
+  hrst       0.0002,
+&end
