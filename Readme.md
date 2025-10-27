@@ -148,7 +148,7 @@ Or download from: https://www.charmm-gui.org/charmmdoc/install.html
 ## Project Structure
 
 ```
-g4dna_protocol_demo/
+smsl_g4dna/
 ├── README.md                          # This file
 ├── smsl/                              # Structure-Mechanics Statistical Learning package
 │   ├── smsl/                          # Core Python modules
